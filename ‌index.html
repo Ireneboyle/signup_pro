@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaces.Ng</title>
+    <link rel="stylesheet" href='styles.css'>
+    <script src="https://use.fontawesome.com/0d4bb73f03.js"></script>
+
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="topnav">
+            <a href="#home">Home</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#signup">Sign up</a>
+            <a href="#contactus">Contact Us</a>
+            <img class="nav-image"src="Rectangle 17.png" alt="">
+        </div>
+     <div class="container">
+     <div class="main-header">
+      <h1>Spaces.NG</h1>
+      <h2>Let's get started!</h2>
+      <p>Create an account with us</p>
+     </div>
+     <div id="error"></div>
+      <form class="form-data"action="/signup" method="post">
+        
+        <div class="form-input-container">
+             <i class="fa fa-user"></i> 
+    
+           <input  type="text" id="name" placeholder="Name" name="name" class="form-input" required>
+        
+        </div> 
+        
+        <div class="form-input-container">
+            <i class="fa fa-envelope"></i>
+            <input type= "email" id="email" placeholder="Email" name="email" class="form-input" required>
+            
+            
+        </div>
+        <div class="form-input-container">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="password" placeholder="Password" class="form-input" required>
+            
+             
+        </div>
+        <div>
+    
+        <button class="button" id="btn" type="submit">Sign Up</button>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" required>
+            <label class="checkbox"for="checkbox">I agree with all terms and condition</label>
+        </div>
+        
+      </form>
+      </div>
+    </div>
+    
+        
+         
+   
+</body>
+</html>
+

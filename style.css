@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: #000000;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.wrapper {
+  width: 90%;
+  margin-left: 4rem;
+  padding-bottom: 30px;
+}
+.topnav {
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: right;
+  display: inline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.4;
+  text-decoration: none;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.topnav a:hover {
+  border-bottom: 4px solid #4623d2;
+}
+
+.topnav a:active {
+  border-bottom: 4px solid #4623d2;
+}
+.nav-image {
+  position: absolute;
+  width: 620px;
+  height: 625px;
+  left: 735px;
+  top: 169px;
+  padding-bottom: 80px;
+  padding-right: 100px;
+}
+.main-header h1 {
+  font-weight: bold;
+  font-size: 37.5px;
+  line-height: 44px;
+  text-align: left;
+  position: absolute;
+  width: 187.5px;
+  height: 43.75px;
+  left: 83.75px;
+  top: 73.75px;
+  color: #443a63;
+  margin-left: 55px;
+}
+.main-header h2 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0.1em;
+  color: #323232;
+  position: absolute;
+  width: 495px;
+  height: 52px;
+  left: 83px;
+  top: 159px;
+  margin-bottom: 50px;
+  margin-left: 55px;
+}
+.main-header p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.5px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+  color: #000000;
+  position: absolute;
+  width: 298px;
+  height: 26px;
+  left: 83px;
+  top: 214px;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+.form-data {
+  font-size: 1.3em;
+  padding: 10rem;
+}
+
+/*tried styling the icon but it's not working out well for me
+ .user .fa-user{
+    padding: 150px;
+    float: left;
+    justify-content: left; */
+
+input {
+ font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.4;
+  position: absolute;
+  width: 495px;
+  height: 83px;
+  left: 148px;
+  top: 298px;
+  border: 2.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12.5px;
+
+  
+
+}
+
+input[type="text"] {
+  
+  margin-bottom: 100px;
+}
+/*input[type="text"]:hover{
+    background-color: #4623D2;
+}*/
+
+input[type="email"] {
+  
+  margin-top: 100px;
+  margin-bottom: 200px;
+  
+}
+
+input[type="password"] {
+
+  margin-top: 200px;
+}
+.button {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  width: 495px;
+  height: 82.5px;
+  left: 83px;
+  top: 666px;
+  background: #4623d2;
+  border: 2.5px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 3.2px 16px 40px rgba(96, 57, 251, 0.3);
+  border-radius: 12.5px;
+  margin-left: 55px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 84px;
+  top: 770px;
+  background: #ffffff;
+  opacity: 0.4;
+  border: 2.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6.25px;
+}
+.checkbox {
+  position: absolute;
+  width: 412px;
+  height: 26px;
+  left: 122px;
+  top: 769px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.4;
+}
